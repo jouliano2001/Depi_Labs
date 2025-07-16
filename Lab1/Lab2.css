@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+  background-color: #001d37;
+}
+header {
+  border: 0px;
+  padding: 0px;
+}
+.Head1 {
+  color: #ffffff;
+  width: 525px;
+  height: 429px;
+  margin-top: 139px;
+  margin-left: 188px;
+  display: flex;
+  flex-direction: column;
+}
+.Head1 #Headtext1 {
+  font-size: 100px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+.Head1 .Head1_2 #Headtext2 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  line-height: 169%;
+  margin-top: 11px;
+}
+.Head1 .Head1_2 {
+  width: 435px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+}
+.Head1 .Head1_3 {
+  margin-top: 21px;
+}
+.Head1 .Head1_3 .bttn1 {
+  width: 154px;
+  height: 46px;
+  border-radius: 71px;
+  background-color: #475aff;
+  border: 2px solid #475aff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 11px;
+}
+.Head1 .Head1_3 .bttn2 {
+  width: 154px;
+  height: 46px;
+  border-radius: 71px;
+  border: 2px solid #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.Head2 {
+  color: #ffffff;
+  margin-top: 67px;
+  margin-left: 188px;
+}
+.Head2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Head2 li {
+  width: 255px;
+  height: 322px;
+  border: 1px solid #ffffff6e;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.Head2 li a {
+  text-decoration: none;
+  color: inherit;
+  margin-top: 15px;
+  display: block;
+}
+
+.Head2 li .CardTitle {
+  margin-top: 44px;
+}
+.PetCards {
+  margin-top: 151px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.PetCards h1 {
+  background-color: #ffffff;
+  font-size: 85px;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 131px;
+  margin-left: 138px;
+}
+.PetCards .category {
+  background-color: #ffffff;
+  margin-left: 138px;
+  color: #9F9F9F;
+  display: flex;
+  margin-top: -20px;
+}
+.PetCards .category a {
+  background-color: #ffffff;
+  margin-left: 15px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
+  padding: 40px;
+  background-color: #ffffff;
+
+}
+
+.cardItem {
+  background-color: #ffffff;
+  position: relative;
+  width: 515px;
+  height: 196px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cardItem img {
+  position: absolute;
+  top: -18px;
+  left: -25px;
+  height: auto;
+  width: auto;
+  max-height: 250px;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.cardText a:first-child {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.cardText a:last-child {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: #ffffff;
+}

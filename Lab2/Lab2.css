@@ -1,8 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.NavBar img {
+  margin-top: 43px;
+  margin-left: 240px;
+  margin-right: 70px;
+  width: 195px;
+  height: 23px;
+}
+
 .NavBar {
   display: flex;
-  justify-content: center;
+  height: 100px;
+  width: 100vw;
 }
-.NavList{
-    display: flex;
-    justify-content: space-between;
+.NavBar button {
+  color: #ffffff;
+  background: #ffa000;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 160, 0, 1) 0%,
+    rgba(255, 96, 0, 1) 100%
+  );
+  width: 275px;
+  border: 0;
+}
+.NavList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 43px;
+  height: 23px;
+}
+.NavList li {
+  margin-left: 38px;
+  font-size: 16px;
+}
+.NavList li select {
+  border: 0px;
+  font-size: 16px;
+}
+.NavList li a {
+  color: black;
+  text-decoration: none;
+}
+.Header {
+  background: #6d6c6d;
+  background: linear-gradient(
+    90deg,
+    rgba(109, 108, 109, 1) 0%,
+    rgba(36, 36, 37, 1) 100%
+  );
+  color: #ffffff;
+  width: 100vw;
+  height: 479px;
+  display: flex;
+  flex-direction: column;
+}
+.Header_1{
+  height: 60px;
+  align-content: center;
+  margin-left: 240px;
+}
+.Header_1 svg{
+  margin-right: 21px;
+}
+
+.Header_1 a{
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.Header_2{
+  display: flex;
+  align-items: end;
+}
+.Header_2 img{
+  width: 300px;
+  height: 300px;
+  margin-left: 240px;
+  margin-top: 52px;
+  margin-right: 41px;
+}
+.Header_2 .Header_2_text #HOR{
+  background-color: #ffa000;
+  border: #ffa000;
+  width: 36px;
+  height: 4px;
+  margin-bottom: 16px;
 }
